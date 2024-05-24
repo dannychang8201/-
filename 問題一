@@ -1,0 +1,8 @@
+counter=0#第幾列
+for i in range(10):
+    counter=counter+1#迴圈重複一次就換下一列
+    if counter%2==1:#若為奇數行則用下方花紋表示
+        print("*+"*10)
+    if counter%2==0:#若為偶數行則用下方花紋表示
+        print("+*"*10)
+    
